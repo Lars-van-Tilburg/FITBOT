@@ -12,7 +12,7 @@ body {
 
 .HeaderSection {
     height: 400px;
-    background-image: url("../foto/background.jpg");
+    background-image: url("./foto/background.jpg");
     background-position: center;
     background-position-y: 30%;
 }
