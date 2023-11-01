@@ -429,6 +429,7 @@ label {
     
     .sub-heading{
         display: flex;
+	flex-direction: column;
         gap: 30px; 
         margin-left: 150px;
         margin-right: 150px;
