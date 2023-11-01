@@ -237,7 +237,7 @@ ul.slides input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: black;
     opacity: 0.5;
     margin: 10px;
 }
@@ -429,7 +429,7 @@ label {
     
     .sub-heading{
         display: flex;
-	flex-direction: column;
+        flex-direction: column;
         gap: 30px; 
         margin-left: 150px;
         margin-right: 150px;
@@ -684,24 +684,6 @@ input[type="radio"] {
     padding-top: 30;
 }
 
-#chat-window {
-    position: fixed;
-    bottom: 3vh;
-    right: -1vw;
-    font-size: 1.2rem;
-    background-color: #0F1923;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 5px;
-    height: 15vh;
-    box-shadow: -5px -5px 10px rgb(0 0 0 / 0.4);
-    transform: translate(1000px);
-    animation: show-chat 1s forwards 2s;
-    font-family: 'Titlefont';
-    margin-bottom: 135px;
-}
 
 .chat-title {
     color: white;
