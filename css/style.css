@@ -134,11 +134,6 @@ body {
     background-color: #147B7B;
 }
 
-.carousel {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
 ul.slides {
     display: block;
     position: relative;
@@ -221,25 +216,6 @@ ul.slides input {
     width: 49%;
     text-align: right;
     right: 0;
-}
-
-.carousel-dots {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    z-index: 999;
-    text-align: center;
-}
-
-.carousel-dots .carousel-dot {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: black;
-    opacity: 0.5;
-    margin: 10px;
 }
 
 input:checked + .slide-container .slide-image {
@@ -384,23 +360,11 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 0.8em;
 }
 
-@font-face {
-    font-family: DefaultFont;
-    src: url("../../fonts/Valorant_Font_Default.ttf");
-}
-
-@font-face {
-    font-family: TitleFont;
-    src: url("../../fonts/Valorant_Font_Title.ttf");
-}
-
 #contactForm {
     width: 50vw;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2vh;
-
-
 }
 
 label {
@@ -455,6 +419,15 @@ padding: none;
     position: relative;
     margin-top: auto;
 }
+
+	.foto article{
+    display: flex;
+    flex-direction: column;
+    border: #000000 1px solid;
+    border-radius: 1vw;
+    text-align: none;
+}
+
 
 
     .row1 {
