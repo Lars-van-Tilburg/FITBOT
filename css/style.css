@@ -436,6 +436,26 @@ label {
         margin-bottom: 100px;
     }
 
+.sub-container article h3{
+padding: none;
+}
+.sub-container article p{
+padding: none;
+}
+.sub-container article a{
+    margin: 10px;
+	padding: none;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid #147B7B;
+    border-radius: 5px;
+    background-color: #147B7B;
+    color: white;
+    position: relative;
+    margin-top: auto;
+}
+
 
     .row1 {
         flex-direction: column
