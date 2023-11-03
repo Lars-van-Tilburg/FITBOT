@@ -66,10 +66,26 @@ body {
     margin-bottom: 100px;
 }
 .sub-container{
-    flex: 1;
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    flex-grow: 1;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .foto{
-    flex: 1;
+       display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    flex-grow: 1;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .foto article{
     display: flex;
